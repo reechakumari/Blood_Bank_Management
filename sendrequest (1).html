@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body background="send.jpeg">
+<center>
+<h1>Request For Blood</h1>
+<p><span class="error">* required field</span></p>
+<form method="post" action="connection4.php">
+
+Patient id:<input type="text" name="patient_id" value="" required>
+<br><br>
+Patient name:<input type="text" name="patientname" value="" required>
+<br><br>
+Blood Group:
+<select>
+  <option value=" " name="bloodgroup">A+</option>
+  <option value=" " name="bloodgroup">A-</option>
+  <option value=" " name="bloodgroup">B+</option>
+  <option value=" " name="bloodgroup">B-</option>
+  <option value=" " name="bloodgroup">AB+</option>
+  <option value=" " name="bloodgroup">AB-</option>
+  <option value=" " name="bloodgroup">O+</option>
+  <option value=" " name="bloodgroup">O-</option>
+</select>
+<br><br>
+Unit Of Blood Require:<input type="Number" name="unit_of_blood_require" value="" required>
+<br><br>
+Gender:<input type="radio" name="gender" value="male" checked> Male<input type="radio" name="gender" value="female" > Female<br>
+<br>
+Recommended Hospital Name:<input type="text" name="hospitalname" value="" required>
+<br><br>
+Phone No.:<input type="Number" name="phone_no" value="" required>
+<br><br>
+Address:<input type="text" name="address" value="" required>
+<br><br><br>
+<input type="submit" value="Submit">
+</form> 
+<br><br><br>
+<input type="button" value="Go back!" onclick="history.back()">
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body background="Donor.jpeg">
+
+<center>
+<h1>Donar Registration</h1>
+<p><span class="error">* required field</span></p>
+<form method="post" action="connection2.php">
+
+Donar id:<input type="text" name="donar_id" value="" required>
+<br><br>
+Donar name:<input type="text" name="donarname" value="" required>
+<br><br>
+Blood Group:
+<select>
+  <option value=" " name="bloodgroup">A+</option>
+  <option value=" " name="bloodgroup">A-</option>
+  <option value=" " name="bloodgroup">B+</option>
+  <option value=" " name="bloodgroup">B-</option>
+  <option value=" " name="bloodgroup">AB+</option>
+  <option value=" " name="bloodgroup">AB-</option>
+  <option value=" " name="bloodgroup">O+</option>
+  <option value=" " name="bloodgroup">O-</option>
+</select>
+<br><br>
+Age:<input type="text" name="age" value="" required>
+<br><br>
+Gender:<input type="radio" name="gender" value="male" checked> Male<input type="radio" name="gender" value="female" > Female<br>
+<br>
+Phone No.:<input type="Number" name="phone_no" value="" required>
+<br><br>
+Address:<input type="text" name="address" value="" required>
+<br><br><br>
+<input type="submit" value="Submit">
+</form> 
+<br>
+<br>
+<br>
+<input type="button" value="Go back!" onclick="history.back()">
+</body>
+</html>
